@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+}
+body{
+    border: 5px gray solid;
+}
+
+.container{
+    padding-right: 25px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 75px 75px 150px 380px 250px 150px 150px 150px;
+    grid-template-areas:
+    "logo logo logo logo facebook"
+    "logo logo logo logo twitter"
+    "logo logo logo logo masks"
+    "birthday birthday joker clown wigs"
+    "inspectorgadget supersale supersale sketchycandy hats"
+    "inspectorgadget santa classics classics freeshipping"
+    "proposition santa scary1 scary2 wgg"
+    "innerdemons masquerade . . footer";
+    gap: 5px;
+}
+/* Monte "can make a video game in a hour for a school project" mcdonald, who needed to ask six people for help to get this code to work */
+/* .box{
+    display: flex;
+} */
+
+
+a[href="."]{
+    margin: 5px;
+    color: black;
+    text-decoration: none;
+}
+nav{
+    background-color: palevioletred;
+}
+
+.item1{
+    grid-area:logo
+}
+
+.item2{
+    grid-area:facebook
+}
+
+.item3{
+    grid-area:twitter
+}
+
+.item4{
+    grid-area:birthday
+}
+
+.item5{
+    grid-area:masks
+}
+
+.item6{
+    grid-area:joker
+}
+
+.item7{
+    grid-area:clown
+}
+
+.item8{
+    grid-area:wigs
+}
+
+.item9{
+    grid-area:inspectorgadget
+}
+
+.item10{
+    grid-area:supersale
+}
+
+.item11{
+    grid-area:sketchycandy
+}
+
+.item12{
+    grid-area:hats
+}
+
+.item13{
+    grid-area:santa
+}
+
+.item14{
+    grid-area:classics
+}
+
+.item15{
+    grid-area:freeshipping
+}
+
+.item16{
+    grid-area:proposition
+}
+
+.item17{
+    grid-area:scary1
+}
+
+.item18{
+    grid-area:scary2
+}
+
+.item19{
+    grid-area:wgg
+}
+
+.item20{
+    grid-area:innerdemons
+}
+
+.item21{
+    grid-area:masquerade
+}
+.item22{
+    color: orange;
+    display: flex;
+    grid-area:footer;
+    justify-content: end;
+    align-items: end;
+}
